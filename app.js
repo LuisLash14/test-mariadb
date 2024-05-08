@@ -32,3 +32,14 @@ router.route('/users').get(async(req,res) => {
 
 app.listen(3500);
 //console.log(`Escuchando en el puerto: ${port}`);
+/*,
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Debug: Attach to Node.js",
+            "address": "localhost",
+            "port": 9229,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}",
+            "protocol": "inspector"
+        }*/
